@@ -1,0 +1,66 @@
+# Sistemas Operacionais Modernos — Guia de Estudos
+
+## Base do material
+
+**Base:** Andrew S. Tanenbaum e Herbert Bos — *Sistemas Operacionais Modernos*, 4ª edição.
+
+**Recorte:** conteúdo relacionado às páginas 5–14 da edição brasileira.
+
+> **Observação:** Este arquivo é um guia de estudos original. O objetivo é organizar os principais conceitos históricos e técnicos em uma linguagem simples e didática, sem reproduzir o livro página por página.
+
+---
+
+# 1. Objetivo
+
+O objetivo deste guia é entender como os sistemas operacionais surgiram e como eles evoluíram de acordo com as mudanças no hardware dos computadores.
+
+Os computadores antigos eram muito diferentes dos computadores atuais. Eles eram grandes, caros, difíceis de programar e exigiam muita intervenção humana.
+
+Com o passar dos anos, novas tecnologias foram criadas, como:
+
+- válvulas;
+- transistores;
+- circuitos integrados;
+- microprocessadores;
+- computadores pessoais;
+- dispositivos móveis.
+
+Cada uma dessas mudanças trouxe novas possibilidades, mas também novos problemas.
+
+Por isso, os sistemas operacionais foram evoluindo para conseguir administrar melhor:
+
+- processador;
+- memória;
+- armazenamento;
+- entrada e saída;
+- programas;
+- usuários;
+- dispositivos;
+- segurança.
+
+---
+
+# 2. O que é um Sistema Operacional?
+
+Um sistema operacional é um software responsável por administrar os recursos de um computador e fornecer uma maneira mais simples para os programas e usuários utilizarem o hardware.
+
+Podemos imaginar o sistema operacional como uma camada intermediária:
+
+```text
+USUÁRIO
+   ↓
+APLICAÇÕES
+   ↓
+SISTEMA OPERACIONAL
+   ↓
+HARDWARE
+
+
+
+| Geração    | Período aproximado | Principal tecnologia  | Característica          |
+| ---------- | ------------------ | --------------------- | ----------------------- |
+| 1ª geração | 1945–1955          | Válvulas              | Operação muito manual   |
+| 2ª geração | 1955–1965          | Transistores          | Processamento em lote   |
+| 3ª geração | 1965–1980          | Circuitos integrados  | Multiprogramação        |
+| 4ª geração | 1980–presente      | Computadores pessoais | Maior acessibilidade    |
+| 5ª geração | 1990–presente      | Computação móvel      | Mobilidade e eficiência |
